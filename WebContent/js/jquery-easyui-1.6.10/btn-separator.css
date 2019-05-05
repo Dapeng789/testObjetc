@@ -1,0 +1,7 @@
+div .btn-separator {	
+	float: left;	
+	height: 24px;	
+	border-left: 1px solid LightGrey;	
+	border-right: 0px solid LightGrey;	
+	margin: 1px 1px;	
+}

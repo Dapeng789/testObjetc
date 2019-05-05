@@ -1,0 +1,8 @@
+按钮控制需要以下配置
+1.controller中返回页面需要增加
+	String menuid=param("menuid","");
+	m.addAttribute("menuid", menuid);
+2.jsp页面中需要增加
+	按钮工具栏<div id="toolbar"></div>
+	方法名称例如save()
+3.菜单维护中按钮类别项,url需要设置成toolbar.save()

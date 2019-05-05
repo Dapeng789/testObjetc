@@ -1,0 +1,65 @@
+/* 其他项被选中样式 */
+/* .menu .menu-active {
+	background: #0081C2;
+	color: #fff
+} */
+/* a标签未选中样式 */
+.menu a {
+	background: #FFF;
+	color: #000
+}
+/* a标签被选中样式 */
+ .menu .menu-active a {
+	background: #E8E8E8;
+	color: #000
+} 
+
+a{text-decoration:none}
+
+
+/* 头部下拉菜单样式 */
+.menu-content dl{
+	float:left;
+	margin:0 5px ;
+	padding:0 5px ;
+}
+.menu-content dt{
+	padding:5px 0;
+	font-size:12pt;
+	font-weight: bold;
+}
+.menu-content dd{
+	margin:2;
+	padding:0 ;
+	font-size:12pt;
+	border:0px solid #000;
+}
+/* 头部菜单 选项  鼠标移动效果 */
+/* .menu-content dd:hover{
+	background:#0081C2
+}
+.menu-content dd:hover a{
+	background: #0081C2;
+	color: #FFF
+}  */
+
+/* 修改密码 */
+#strengthname,#strengt-span{
+			float:left;
+		}
+#strengt-span {
+	width:120px;
+	height:10px;
+	margin-top:0px;
+}
+#weak,#middle,#strength{
+	float:left; 
+	width:30%;
+	height: 34%;
+    line-height: 17px;
+    text-align: center;
+    color: #000;
+}
+#table-psw {font-size: 10px;}
+	table tr td {border:0px red solid;}
+}

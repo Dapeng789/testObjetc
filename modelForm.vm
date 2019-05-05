@@ -1,0 +1,23 @@
+package com.cms.form;
+/**
+ * @author  作者：${user}
+ *
+ *@version  创建时间：${date} ${time} 
+ * 
+ *@descriptions 类说明：$classname  数据模型
+ */
+public class $classname {
+#foreach( $col in $cols )
+$col.ann
+	private $col.ctype $col.name ;
+#end
+#foreach( $col in $cols )
+	public $col.ctype $col.MethodName (){
+		return $col.name;
+	}
+	public void $col.setMethodName ($col.ctype $col.name){
+		this.$col.name=$col.name;
+	}
+#end
+
+}
